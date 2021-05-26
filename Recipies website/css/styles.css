@@ -1,0 +1,123 @@
+/* General styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Hero Section */
+
+.hero-section {
+    height: 100vh;
+    background-image: url("/images/hero-image.jpg");
+    background-size: cover;
+}
+
+.logo {
+    margin: 20px 0 0 20px;
+    font-size: 30px;
+    color: #fff;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    margin: 20px 30px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: color 0.2s;
+
+}
+
+nav a:hover {
+    color: #E645E6
+}
+
+.hero-section h1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 140%;
+}
+
+/* Categories Section */
+
+.categories-section h2 {
+    text-align: center;
+    margin: 100px 0 100px 0;
+    font-size: 33px;
+    color: #E001E0
+}
+
+h2:after {
+    display: block;
+    content: "";
+    margin: 35px auto;
+    width: 150px;
+    height: 3px;
+    background-color: #610061;
+}
+
+.breakfast img {
+    height: 200px;
+    width: 300px;
+}
+
+.salad img {
+    height: 200px;
+    width: 300px;
+}
+
+.dessert img {
+    height: 200px;
+    width: 300px;
+}
+
+.starter img {
+    height: 200px;
+    width: 300px;
+}
+
+.main-course img {
+    height: 200px;
+    width: 300px;
+}
+
+.breakfast {
+    float: left;
+}
+
+.salad {
+    float: left;
+}
+
+.starter {
+    float: left;
+}
+
+.main-course {
+    float: left;
+}
+
+.dessert {
+    float: left;
+}
+
+.row1 {
+    width: 100%;
+}
+
+.row2 {
+    width: 100%;
+}
