@@ -94,11 +94,11 @@ h2:after {
     width: 300px;
 }
 
-.breakfast {
+/* .breakfast {
     float: left;
 }
 
-.salad {
+ .salad {
     float: left;
 }
 
@@ -112,12 +112,32 @@ h2:after {
 
 .dessert {
     float: left;
-}
+} */
 
-.row1 {
+/* .row1 {
     width: 100%;
 }
 
 .row2 {
     width: 100%;
+} */
+.breakfast{
+    margin-right: 1rem;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.salad{
+    float: right;
 }
